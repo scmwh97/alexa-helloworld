@@ -11,11 +11,12 @@ Das Beispiel implementiert SpeechletV2: public class HelloWorldSpeechlet impleme
 es ist auch möcglich, Speechlet zu implementieren.
 Die Signator der Methode würde wie folgt aussehen:
 
+```java
 public class Hello implements Speechlet {
 	@Override
 	public void onSessionStarted(SessionStartedRequest request, Session session) throws SpeechletException {
 		// TODO Auto-generated method stub
 	}
   ...
-
 }
+```
