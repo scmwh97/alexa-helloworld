@@ -7,7 +7,9 @@ Handler: com.amazon.asksdk.helloworld.HelloWorldSpeechletRequestStreamHandler
 Laufzeit: Java 8
 
 Anmerkung:
-Das Beispiel implementiert SpeechletV2: public class HelloWorldSpeechlet implements SpeechletV2;
+Das Beispiel implementiert SpeechletV2:
+```java public class HelloWorldSpeechlet implements SpeechletV2;
+```
 es ist auch möcglich, Speechlet zu implementieren.
 Die Signatur der Methode würde wie folgt aussehen:
 
