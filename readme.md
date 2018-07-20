@@ -9,7 +9,7 @@ Laufzeit: Java 8
 Anmerkung:
 Das Beispiel implementiert SpeechletV2: public class HelloWorldSpeechlet implements SpeechletV2;
 es ist auch möcglich, Speechlet zu implementieren.
-Die Signator der Methode würde wie folgt aussehen:
+Die Signatur der Methode würde wie folgt aussehen:
 
 ```java
 public class Hello implements Speechlet {
